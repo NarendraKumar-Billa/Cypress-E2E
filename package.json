@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test:addToCart": "npx cypress run --spec 'cypress/e2e/tests/addToCartTest.cy.js'",
+    "test:registerForm": "npx cypress run --spec 'cypress/e2e/tests/registerTest.cy.js'",
+    "cypress:open": "npx cypress open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +20,7 @@
   },
   "homepage": "https://github.com/NarendraKumar-Billa/Cypress-E2E#readme",
   "devDependencies": {
-    "cypress": "^13.7.1"
+    "cypress": "^13.7.1",
+    "cypress-mochawesome-reporter": "^3.8.2"
   }
 }

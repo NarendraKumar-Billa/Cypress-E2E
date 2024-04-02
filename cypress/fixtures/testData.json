@@ -1,0 +1,12 @@
+{
+    "login": {
+        "username": "billa@gmail.com",
+        "password": "hello@123"
+    },
+    "product": {
+        "productname": "MacBook"
+    },
+    "massage": {
+        "successmassage": "Success: You have added MacBook to your shopping cart!"
+    }
+}
